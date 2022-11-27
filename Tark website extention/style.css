@@ -1,0 +1,323 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    height: 50px;
+    margin-left: 90px;
+}
+nav{
+    background-color: #4C8DC6;
+}
+.search{
+    height: 40px;
+    width: 370px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 260px;
+    margin-top: -50px;
+}
+.search input {
+    height: 40px;
+    width: 970px;
+    border-left: 0.1px black solid;
+}
+.search button{
+    height: 40px;
+    width: 90px;
+    margin-left: -9px;
+  background-color: white;
+  border-left: 0.1px white solid;
+}
+.links{
+    display: flex;
+    justify-content:right;
+    margin-right: 40px;
+    margin-top: -40px;
+}
+.links a{
+    margin-left: 120px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+}
+.login{
+    background-color:#5EDEDB;
+    padding: 11px;
+    border-radius: 37% 63% 54% 46% / 51% 48% 52% 49% ;
+    border: #5EDEDB;
+}
+/*`slideshow*/
+
+.h1{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: seashell;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+.sildeshow{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 90%;
+    height: 600px;
+    top: 50%;
+    background-image: url('image/brand-logo1.png');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px white;
+    animation: slide 19s infinite linear;
+    margin-bottom: 40px;
+}
+.carousel{
+    margin-top: 70px;
+}
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-cell:before {
+    display: block;
+}
+
+.carousel-cell img {
+    height: 500px;
+    width: 1000px;
+    margin-left: 90px;
+}
+@keyframes slide {
+    0%{background-image: url('https://theblondesalad.com/wp-content/uploads/2020/09/ava900-1-585x878.jpg');}
+    50%{background-image: url('https://www.thehistoryofworldmusic.com/wp-content/uploads/2019/04/140ab88fbc27abfda6001d33718a52db-1-768x768.jpg');}
+    100%{background-image: url('https://metrobiography.com/wp-content/uploads/2019/05/Ava-Max.jpg');}
+}
+/*slideshow*/
+.line{
+    margin-left: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 150px;
+}
+article{
+    max-width: 500px;
+    width: 400px;
+    border: 1px black solid;
+    margin-left: 90px;
+ 
+}
+.text h3{
+    text-align: center;
+}
+.text p{
+    text-align: center;
+    max-width: 300px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.text button{
+    background-color: aquamarine;
+    margin-left: 190px;
+}
+article img{
+    height: 220px;
+    border-radius: 50%;
+}
+
+.text button {
+    padding: 0 20px 20px;
+    margin-left: 100px;
+}
+
+.text>button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.a1{
+    max-width: 500px;
+    width: 400px;
+    margin-left: 590px;
+    margin-top: 5px;
+    margin-bottom: 130px;
+   
+}
+.a4{
+    max-width: 500px;
+    width: 400px;
+    margin-top: -495px;
+    margin-bottom: 1030px;
+}
+.a3{
+    max-width: 500px;
+    width: 400px;
+    margin-left: 590px;
+    margin-top: -1995px;
+
+}
+.a{
+    margin-bottom: 290px;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+/*footer*/
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-left: 90px;
+ }
+ .footer-col h4{
+     font-size: 18px;
+     color: #ffffff;
+     text-transform: capitalize;
+     margin-bottom: 35px;
+     font-weight: 500;
+     position: relative;
+ }
+ .footer-col h4::before{
+     content: '';
+     position: absolute;
+     left:0;
+     bottom: -10px;
+     background-color: #e91e63;
+     height: 2px;
+     box-sizing: border-box;
+     width: 50px;
+ }
+ .footer-col ul li:not(:last-child){
+     margin-bottom: 10px;
+ }
+ .footer-col ul li a{
+     font-size: 16px;
+     text-transform: capitalize;
+     color: #ffffff;
+     text-decoration: none;
+     font-weight: 300;
+     color: #bbbbbb;
+     display: block;
+     transition: all 0.3s ease;
+ }
+ .footer-col ul li a:hover{
+     color: #ffffff;
+     padding-left: 8px;
+ }
+ .footer-col .social-links a{
+     display: inline-block;
+     height: 40px;
+     width: 40px;
+     background-color: rgba(255,255,255,0.2);
+     margin:0 10px 10px 0;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+     color: #ffffff;
+     transition: all 0.5s ease;
+ }
+ .footer-col .social-links a:hover{
+     color: #24262b;
+     background-color: #ffffff;
+ }
+ .fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   border-radius:500px;
+   text-decoration: none;
+   margin: 5px 2px;
+ }
+ 
+ .fa:hover {
+   -webkit-transform:scale(2.04);-ms-transform:scale(1.04);transform:scale(1.04);
+ 
+     opacity: 0.7;
+ }
+ 
+ .fa-facebook {
+   border-color: 4px white solid;
+   background: #000000;
+   color: rgb(92, 134, 250);
+ }
+ 
+ .fa-twitter {
+   border-color: 4px white solid;
+   background: #000000;
+   color: rgb(92, 197, 204);
+ }
+ .fa-flickr{
+   border-color: 4px white solid;
+   background: #000000;
+   color: rgb(255, 104, 187);
+ }
+ .fa-rss{
+   border-color: 4px white solid;
+   background: #000000;
+   color: rgb(255, 109, 104);
+ }
+ .fa-google {
+   background: #000000;
+   color: rgb(58, 199, 88);
+ }
+ 
+ .fa-linkedin {
+   background: #000000;
+   color: white;
+ }
+ 
+ .fa-youtube {
+   background: #000000;
+   color: rgb(247, 0, 0);
+ }
+ 
+ .fa-instagram {
+   background: #000000;
+   color: rgb(255, 217, 0);
+ }
+ 
+ .reasume h1{
+   font-size: 1.5rem;
+   font-family: 'Dongle', sans-serif;
+   font-size: 1.5rem;
+ }
+ .reasume img{
+   height: 78px;
+ }
+ .details{
+   font-family: 'Dongle', sans-serif;
+   margin-top: 40px;
+ }
+ .left{
+   margin-left: 480px;
+   margin-top: -260px;
+ }
+ .right{
+   margin-left: 880px;
+   margin-top: -240px;  
+ }
+ .download{
+   font-size: 20px;
+   color: black;
+ }
+ .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+
+}
+ /*footer icon end*/
